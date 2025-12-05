@@ -24,8 +24,11 @@ If you use the dataset in your work, please cite
 
 ## Get Access
 
-Access to the dataset can be requested [here](https://docs.google.com/forms/d/1uYePaMc0ofWmxIoo9KfcahK1c1BwYWbz-6i59vOlk3k).
+Access to the full dataset can be requested [here](https://docs.google.com/forms/d/e/1FAIpQLSdYhONDaLi7lubAI0gw_NBh2Cu15gT00WJrImOJ6Ps6FBUVvg/viewform?usp=sharing).
 
+> Google Forms requires to use a google account to enable file upload, but only the email adress entered into the respective field is saved by us and used to send you a summary of the entered data.
+
+Example data for a single subject is provided [here](https://drive.google.com/drive/folders/1pFv7-5n5f9zf4uOs7l6_aR6SkgQdApFb?usp=sharing).
 
 ## Recording Setup
 - **Camera**: *FLIR Blackfly* RGB camera (BFS-U3-50S5C-C) (30 FPS)
@@ -68,7 +71,7 @@ dataset
 │   │   |   │   r42.0_theta15_phi0_ref.csv                                       
 │   │   |   │   ...
 │   │   │
-│   │   └───video                 (21 videos)
+│   │   └───video                     (21 videos)
 │   │   |   │   r42.0_theta0_phi0_20250127_092225_23070166-0000.avi
 │   │   |   │   r42.0_theta0_phi0_20250127_092225timestamps.csv                          
 │   │   |   │   r42.0_theta30_phi0_20250127_092225_23070166-0000.avi
@@ -76,7 +79,7 @@ dataset
 │   │   
 │   └───S02
 │   │   │
-│   │   └───calibration
+│   │   └───calibration.zip
 │   │   |   │   ...
 │   └───S03
 │   |   | ...
