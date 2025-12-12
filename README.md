@@ -10,15 +10,18 @@ Information on how to use FLAME can be found on [flame.is.tue.mpg.de](https://fl
 
 ## Publication
 
+The paper is available on [arXiv](https://arxiv.org/abs/2512.10517).
 If you use the dataset in your work, please cite
 
 ```bibtex
 @misc{rohr2025pulse,
-    author = {Rohr, Maurice and Reinhardt, Tobias and Dege, Tizian and Thies, Justus and Hoog Antink, Christoph},
-    title = {3D Blood Pulsation Maps},
-    year = {2025},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
+      title={3D Blood Pulsation Maps}, 
+      author={Maurice Rohr and Tobias Reinhardt and Tizian Dege and Justus Thies and Christoph Hoog Antink},
+      year={2025},
+      eprint={2512.10517},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.10517}, 
 }
 ```
 
@@ -26,7 +29,7 @@ If you use the dataset in your work, please cite
 
 Access to the full dataset can be requested [here](https://docs.google.com/forms/d/e/1FAIpQLSdYhONDaLi7lubAI0gw_NBh2Cu15gT00WJrImOJ6Ps6FBUVvg/viewform?usp=sharing).
 
-> Google Forms requires to use a google account to enable file upload, but only the email adress entered into the respective field is saved by us and used to send you a summary of the entered data.
+> Google Forms requires to use a google account to enable file upload, but only the email address entered into the respective field is saved by us and used to send you a summary of the entered data.
 
 Example data for a single subject is provided [here](https://drive.google.com/drive/folders/1pFv7-5n5f9zf4uOs7l6_aR6SkgQdApFb?usp=sharing).
 
@@ -101,11 +104,12 @@ dataset
         │
         └───S01
             │   camera_calibration_ocv.xml      <- camera calibration parameters in openCV format estimated from calibration images
-            │   cameras_all.xml                 <- external camera calibration of all videos/images estimated in Methashape
+            │   cameras_all.xml                 <- external camera calibration of all videos/images estimated in Metashape
         
 ```
 
-## Example Code (TBD)
+
+The 3D Face Models are in `.obj` format and can be previewed with any 3D Software, e.g. Windows 3D Viewer or [MeshLab](https://www.meshlab.net/).
 
 
 
